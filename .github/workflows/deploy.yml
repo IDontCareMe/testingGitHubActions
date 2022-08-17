@@ -51,3 +51,6 @@ jobs:
       
       - name: Print-new-list-of-file
         run: ls -la
+      
+      - name: Print-js
+        run: cat js/script.js
