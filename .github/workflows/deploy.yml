@@ -40,7 +40,9 @@ jobs:
         uses: nizarmah/auto-minify@v2.1
         with:
           #maxdepth: 1
-          directory: 'js'
+          directory: |
+                      'js'
+                      'css'
           overwrite: true
       - name: Print js file after
         run: cat js/script.js
