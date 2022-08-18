@@ -39,10 +39,8 @@ jobs:
         #run: echo "Here we will see minifyed fiels =)"
         uses: nizarmah/auto-minify@v2.1
         with:
-          #maxdepth: 1
-          directory: |
-                      'js'
-                      'css'
+          maxdepth: 2
+          #directory: 'js'
           overwrite: true
       - name: Print js file after
         run: cat js/script.js
