@@ -91,7 +91,7 @@ jobs:
       - name: Print message
         run: echo "No tests!"
   
-  # Finally deploy!  
+  # Finally deploy! 🚀 🚀 🚀
   deploy:
     environment:
       name: github-pages
