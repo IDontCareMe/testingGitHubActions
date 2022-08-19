@@ -1,3 +1,5 @@
+[![testingGitHubActionsDeploy](https://github.com/IDontCareMe/testingGitHubActions/actions/workflows/deploy.yml/badge.svg?branch=main&event=push)](https://github.com/IDontCareMe/testingGitHubActions/actions/workflows/deploy.yml)
+
 # testingGitHubActions
 This repo was created just for learning and testing GitHub Actions  
 https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
@@ -7,7 +9,7 @@ https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-ac
 ```
 workflow - рабочий процесс. Состоит из одной или нескольких работ (job);  
 jobs - работы. В свою очередь состоят из шагов (step);  
-step - шаги - элементарные действия, выполняющиеся в каждой работе;  
+step - шаги - элементарные действия (Actions), выполняющиеся в каждой работе;  
 event - события, влияющие на запуск workflow;  
 ```
 
