@@ -79,8 +79,14 @@ jobs:
   testing:
     runs-on: ubuntu-latest
     needs: [build]
+    strategy: 
+      max-parallel: 4
+      matrix:
+        messages: ["This is message 1", "This is message 2", "This is message 3", "This is message 4"]
     
     steps:
+      - name: Print messages
+        run: echo ${{ matrix.messages }}
       - name: Print message
         run: echo "No tests!"
   
