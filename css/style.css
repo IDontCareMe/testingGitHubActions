@@ -13,7 +13,7 @@ body {
 #wrapper {
   width: 80%;
   height: 100%;
-  align: center;
   background-color: #956DA6;
-  margin: 8px;
+  padding: 8px;
+  margin: 0, auto;
 }
