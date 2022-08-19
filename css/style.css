@@ -11,7 +11,8 @@ body {
 }
 
 #wrapper {
-  width: 80%;
+  display: block;
+  width: 800;
   height: 100%;
   background-color: #956DA6;
   padding: 8px;
