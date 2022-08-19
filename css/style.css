@@ -7,13 +7,13 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-color: "#2E3559";
+  background-color: #2E3559;
 }
 
-.wrapper {
+#wrapper {
   width: 80%;
   height: 100%;
   align: center;
-  background-color: "#956DA6";
+  background-color: #956DA6;
   margin: 8px;
 }
