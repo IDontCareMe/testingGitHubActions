@@ -85,6 +85,7 @@ jobs:
         messages: ["This is message 1", "This is message 2", "This is message 3", "This is message 4"]
     
     steps:
+      # Simple test how to use matrix and strategy
       - name: Print messages
         run: echo ${{ matrix.messages }}
       - name: Print message
