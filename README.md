@@ -75,4 +75,4 @@ jobs:
       - name: Print hello message
         run: echo "Hello!"
 ```
-*uses: actions/checkout@v3 делает pull из репозитория врабочую папку контейнера. Обычно это самый первый Action, который следует выполнить*
+*uses: actions/checkout@v3 делает pull из репозитория в рабочую папку контейнера. Обычно это самый первый Action, который следует выполнить*
